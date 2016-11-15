@@ -1,3 +1,5 @@
+/*Typefaces*/
+
 .roboto {
   font-family: 'Roboto', sans-serif;
 }
@@ -6,12 +8,18 @@
   font-family: 'Abril Fatface', cursive;
 }
 
+/*Content Styling*/
+
 #my-wrapper {
   width: 100%;
 }
 
 .mainContainer {
   margin: 0 auto;
+}
+
+p.big {
+  line-height: 250%;
 }
 
 /** Navigation **/
@@ -96,10 +104,13 @@ a:hover{
   background-color: #690d50;
   color: #ffffff;
   padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 100%;
 }
 
 .right-column {
-  padding-left: 100px;
+  padding: 100px;
 }
 
 /* Footer */
