@@ -115,6 +115,9 @@ a:hover{
   position: relative;
   float: right;
   background-color: #ffffff;
+  border-style: solid;
+  border-width: thin;
+  border-color: #f21c52;
   background-image: none;
   border-radius: 4px;
 }
@@ -139,13 +142,51 @@ a:hover{
   border-left-width: thin;
 }
 
+/* Portfolio Page */
+
+.gridbox-pink {
+  background-color: #f51c52;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: thin;
+  height: 300px;
+}
+
+.gridbox-plum {
+  background-color: #690d50;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: thin;
+  height: 300px;
+}
+
+.gridbox-coffee {
+  background-color: #380d07;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: thin;
+  height: 300px;
+}
+
+.gridbox-white {
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: thin;
+  height: 300px;
+}
+
 /* Footer */
 
 .main-footer {
-  background-color: #f21c52;
-  border-top-color: #a6324d;
+  background-color: #ffffff;
+  border-top-color: #f21c52;
   border-top-style: solid;
-  border-top-width: thick;
+  border-top-width: thin;
   padding-top: 100px;
   padding-bottom: 100px;
 }
