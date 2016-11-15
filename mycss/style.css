@@ -3,6 +3,9 @@
 .roboto {
   font-family: 'Roboto', sans-serif;
 }
+.roboto-thin {
+  font-weight: 100;
+}
 
 .fatface {
   font-family: 'Abril Fatface', cursive;
@@ -19,30 +22,52 @@
 }
 
 p.big {
-  line-height: 250%;
+  font-size: 35px;
+  line-height: 60px;
 }
+
+p.medium {
+  font-size: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.pink{
+  color: #f21c52;
+}
+
+.plum {
+  color: #690d50;
+}
+
 
 /** Navigation **/
 
 .main-nav{
-	background-color: #f21c52;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #f21c52;
   font-size: 1.25em;
   padding-top: 18px;
   padding-bottom: 18px;
   border-bottom-style: solid;
-  border-bottom-width: thick;
-  border-bottom-color: #a6324d;
+  border-bottom-width: thin;
+  border-bottom-color: #f21c52;
 }
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
 }
 a {
-  color: #ffffff;
+  color: #f21c52;
 }
 a:hover{
-  color: #ffffff;
+  color: #a6324d;
 }
 .nav .open>a,
 .nav .open>a:hover,
@@ -89,21 +114,19 @@ a:hover{
 .mainToggle {
   position: relative;
   float: right;
-  background-color: #690d50;
+  background-color: #ffffff;
   background-image: none;
   border-radius: 4px;
 }
 .icon-bar{
-	background-color: #ffffff;
+	background-color: #f21c52;
 }
 
 
 /** Main Page **/
 
 .left-column {
-  background-color: #690d50;
-  color: #ffffff;
-  padding-left: 100px;
+  color: #f21c52;
   padding-top: 100px;
   padding-bottom: 100px;
   height: 100%;
@@ -111,6 +134,9 @@ a:hover{
 
 .right-column {
   padding: 100px;
+  border-left-style: solid;
+  border-left-color: #f21c52;
+  border-left-width: thin;
 }
 
 /* Footer */
