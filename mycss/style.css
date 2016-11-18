@@ -144,13 +144,16 @@ a:hover{
 
 /* Portfolio Page */
 
+.gridbox {
+
+}
+
 .gridbox-pink {
   background-color: #f51c52;
   color: #ffffff;
   border-style: solid;
   border-color: #ffffff;
   border-width: thin;
-  height: 300px;
 }
 
 .gridbox-plum {
@@ -159,7 +162,6 @@ a:hover{
   border-style: solid;
   border-color: #ffffff;
   border-width: thin;
-  height: 300px;
 }
 
 .gridbox-coffee {
@@ -168,7 +170,6 @@ a:hover{
   border-style: solid;
   border-color: #ffffff;
   border-width: thin;
-  height: 300px;
 }
 
 .gridbox-white {
@@ -177,7 +178,6 @@ a:hover{
   border-style: solid;
   border-color: #ffffff;
   border-width: thin;
-  height: 300px;
 }
 
 /* Footer */
