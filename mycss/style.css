@@ -5,7 +5,7 @@
 }
 .roboto-thin {
   font-weight: 100;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .fatface {
@@ -45,6 +45,14 @@ h1 {
 
 h2 {
   font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 .first-character {
@@ -138,6 +146,10 @@ a:hover{
 
 
 /** Main Page **/
+
+.top-padding {
+    padding-top: 120px;
+}
 
 .left-column {
   color: #3b4752;
