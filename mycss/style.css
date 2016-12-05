@@ -13,10 +13,6 @@
 
 /*Content Styling*/
 
-#my-wrapper {
-  width: 100%;
-}
-
 .mainContainer {
   margin: 0 auto;
 }
@@ -27,47 +23,53 @@ p.big {
 }
 
 p.medium {
-  font-size: 100%;
+  font-size: 25px;
 }
 
 .center {
   text-align: center;
 }
 
+.right {
+  text-align: right;
+}
+
 h1 {
   font-size: 60px;
 }
 
-.pink{
-  color: #f21c52;
+.first-character {
+  float: left;
+  color: #3b4752;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: 'Abril Fatface', cursive;
 }
-
-.plum {
-  color: #690d50;
-}
-
 
 /** Navigation **/
 
 .main-nav{
 	background-color: #ffffff;
-	color: #f21c52;
+	color: #3b4752;
   font-size: 1.25em;
   padding-top: 18px;
   padding-bottom: 18px;
-  border-bottom-style: solid;
+  border-bottom-style: dashed;
   border-bottom-width: thin;
-  border-bottom-color: #f21c52;
+  border-bottom-color: #3b4752;
 }
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
 }
 a {
-  color: #f21c52;
+  color: #3b4752;
 }
 a:hover{
-  color: #a6324d;
+  color: #545456;
 }
 .nav .open>a,
 .nav .open>a:hover,
@@ -91,23 +93,23 @@ a:hover{
 }
 
 .dropdown-menu > li > a {
-  color: #f21c52;
+  color: #3b4752;
 }
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:active {
-  color: #690d50;
+  color: #3b4752;
   background-color: #ffffff;
 }
 .open{
   color: #ffffff;
-  background-color: #f21c52;
+  background-color: #3b4752;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #690d50;
+  color: #3b4752;
   background-color: #ffffff;
 }
 
@@ -115,38 +117,38 @@ a:hover{
   position: relative;
   float: right;
   background-color: #ffffff;
-  border-style: solid;
+  border-style: dashed;
   border-width: thin;
-  border-color: #f21c52;
+  border-color: #3b4752;
   background-image: none;
   border-radius: 4px;
 }
 .icon-bar{
-	background-color: #f21c52;
+	background-color: #3b4752;
 }
 
 
 /** Main Page **/
 
 .left-column {
-  color: #f21c52;
+  color: #3b4752;
   padding-top: 100px;
-  padding-bottom: 100px;
   height: 100%;
 }
 
+
 .right-column {
   padding: 100px;
-  border-left-style: solid;
-  border-left-color: #f21c52;
-  border-left-width: thin;
+}
+
+.dashed {
+  padding-bottom: 5px;
+  border-top-color: #3b4752;
+  border-top-style: dashed;
+  border-top-width: thin;
 }
 
 /* Portfolio Page */
-
-.gridbox {
-
-}
 
 .gridbox-pink {
   background-color: #f51c52;
@@ -183,14 +185,9 @@ a:hover{
 /* Footer */
 
 .main-footer {
-  background-color: #ffffff;
-  border-top-color: #f21c52;
-  border-top-style: solid;
+  border-top-color: #3b4752;
+  border-top-style: dashed;
   border-top-width: thin;
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-footer  {
-  clear: both;
 }
