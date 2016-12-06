@@ -147,12 +147,15 @@ a:hover{
 
 /** Main Page **/
 
+body {
+  color: #3b4752;
+}
+
 .top-padding {
     padding-top: 120px;
 }
 
 .left-column {
-  color: #3b4752;
   padding-top: 100px;
   height: 100%;
 }
@@ -169,7 +172,15 @@ a:hover{
   border-top-width: thin;
 }
 
-/* Portfolio Page */
+/* Image Styling */
+
+.icon-center {
+  margin: 0 auto;
+  float: none;
+  padding: 10px;
+  width: 75px;
+  height: 75px;
+}
 
 .gridbox-pink {
   background-color: #f51c52;
@@ -202,6 +213,9 @@ a:hover{
   border-color: #ffffff;
   border-width: thin;
 }
+
+/* Contact */
+
 
 /* Footer */
 
