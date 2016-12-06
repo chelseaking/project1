@@ -182,12 +182,28 @@ body {
   height: 75px;
 }
 
-.gridbox-pink {
-  background-color: #f51c52;
-  color: #ffffff;
-  border-style: solid;
-  border-color: #ffffff;
+.image-center {
+  margin: 0 auto;
+  float: none;
+  padding: 60px;
+  width: 30%;
+  height: 30%;
+}
+
+.portfolio-center {
+  margin: 0 auto;
+  float: none;
+  padding: 5px;
+  border-style: dashed;
   border-width: thin;
+  border-color: #3b4752;
+}
+
+.gridbox-border {
+  border-right-style: dashed;
+  border-right-color: #3b4752;
+  border-right-width: thin;
+
 }
 
 .gridbox-plum {
@@ -213,8 +229,6 @@ body {
   border-color: #ffffff;
   border-width: thin;
 }
-
-/* Contact */
 
 
 /* Footer */
